@@ -32,9 +32,9 @@
       <table style="width: 100%;" class="listing nosort">
         <thead>
           <tr>
-            <th>Gespräch</th>
+            <th>Conversation</th>
             <!--<th class="replies">Antworten</th>-->
-            <th class="latest_reply">Neuester Kommentar</th>
+            <th class="latest_reply">Latest Comment</th>
           </tr>
         </thead>
         <tbody>
@@ -58,7 +58,7 @@
                   )
                 </tal:block>
                 <tal:block tal:condition="not:conversation/last_commenter">
-                  <span class="discreet">Noch keine Gespräche.</span>
+                  <span class="discreet">No  talks yet.</span>
                 </tal:block>
               </td>
             </tr>
