@@ -1,6 +1,6 @@
 <registry>
   <!-- Show MessageBoard type in the navigation -->
-  <record name="plone.displayed_types" interface="Products.CMFPlone.interfaces.controlpanel.INavigationSchema" field="displayed_types">
+  <record name="plone.displayed_types" interface="Products.CMFPlone.interfaces.controlpanel.INavigationSchema" field="displayed_types" purge="False">
     <value>
       <element>Message Board</element>
     </value>
